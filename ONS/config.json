@@ -1,0 +1,25 @@
+{
+    "label":"ONS",
+    "icon":"ic-GBA.png",
+    "iconsmall":"ic-GBA-80-n.png",
+    "iconlist":"ic-GBA-32-n.png",
+    "background":"bg.png",
+    "themecolor":"FF00FF",
+    "launch":"launch.sh",
+    "rompath":"../../Roms/ONS",
+    "imgpath":"../../Imgs/ONS",
+    "useswap":0,
+    "shortname":0,
+    "hidebios":1,
+    "extlist":"txt|dat|___|nt2|nt3|ons|/",
+    "launchlist": [
+        {
+            "name": "onsyuri",
+            "launch": "launch.sh"
+        },
+		{
+            "name": "onsscripter",
+            "launch": "launch_onsscripter.sh"
+        }
+    ]
+}
